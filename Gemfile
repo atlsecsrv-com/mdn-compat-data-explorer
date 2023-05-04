@@ -18,7 +18,7 @@ gem 'chartkick', '~> 3.2'
 gem 'database_cleaner', '~> 1.7'
 
 gem 'bootstrap', '~> 4.4.1'
-gem 'jquery-rails', '~> 4.3'
+gem 'jquery-rails', '~> 4.4'
 
 gem 'version_sorter', '~> 2.2'
 
