@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '~> 2.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.3'
+gem 'rails', '~> 7.1.5', '>= 7.1.5.2'
 # Use postgres as the database for Active Record
 gem 'pg', '~> 1.1'
 # Use Puma as the app server
@@ -22,12 +22,12 @@ gem 'jquery-rails', '~> 4.3'
 
 gem 'version_sorter', '~> 2.2'
 
-gem 'kaminari', '~> 1.1'
+gem 'kaminari', '~> 1.2', '>= 1.2.1'
 
-gem 'octicons_helper', '~> 8.5'
-gem 'pg_search', '~> 2.2'
+gem 'octicons_helper', '~> 9.0', '>= 9.0.0'
+gem 'pg_search', '~> 2.3', '>= 2.3.3'
 
-gem 'friendly_id', '~> 5.3.0'
+gem 'friendly_id', '~> 5.4.0'
 
 gem 'rake', '~> 12'
 
@@ -48,8 +48,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'annotate', '~> 2.7'
-  gem 'rails-erd', '~> 1.6'
+  gem 'annotate', '~> 3.2', '>= 3.2.0'
+  gem 'rails-erd', '~> 1.6', '>= 1.6.1'
   gem 'better_errors'
   gem 'binding_of_caller'
 end
